@@ -1,3 +1,16 @@
+---
+output: github_document
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
 # groupColCountAndProp
 
 The 'groupColCountAndProp' function streamlines data analysis by offering a straightforward method for grouping and summarizing datasets. Specifically, it takes a dataset, groups it by a column of your choice, and subsequently calculates the count and proportion of unique entries in another column, all within each group. This utility is particularly handy during the exploratory stages of data analysis, as it transforms the complex task of grouped summarization into a seamless operation. The function's intuitive design ensures that even users with minimal programming experience can efficiently derive meaningful insights from their data.
