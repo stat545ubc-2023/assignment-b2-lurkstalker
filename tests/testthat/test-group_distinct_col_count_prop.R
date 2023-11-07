@@ -32,3 +32,6 @@ test_that("group_distinct_col_count_prop handles non-existent columns correctly"
   expect_error(group_distinct_col_count_prop(test_data, "Species", "Heights"),
                "Error: summary_col is not a column in the dataset.")
 })
+
+
+rm(test_data)
